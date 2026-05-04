@@ -21,7 +21,7 @@ export const register = async (req, res) => {
   if (exists) return fail(res, 409, "Email already registered");
 
   let profilePhoto = { url: "", publicId: "" };
-  if (req.file && process.env.CLOUDINARY_CLOUD_NAME) {
+  if (req.file && process.env.CLOUDINARY_URL) {
     try {
       const r = await uploadBufferToCloudinary(req.file.buffer);
       profilePhoto = { url: r.secure_url, publicId: r.public_id };

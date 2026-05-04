@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "NexTrain - Railway Reservation System - Backend",
+  "description": "NexTrain — Sri Lanka Railway Reservation System (server)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

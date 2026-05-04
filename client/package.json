@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "NexTrain — Sri Lanka Railway Reservation System (client)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,10 +11,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@stripe/stripe-js": "^9.4.0",
     "@tailwindcss/vite": "^4.2.4",
+    "axios": "^1.15.2",
+    "date-fns": "^4.1.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.7",
     "react": "^19.2.5",
+    "react-datepicker": "^9.1.0",
     "react-dom": "^19.2.5",
-    "tailwindcss": "^4.2.4"
+    "react-hook-form": "^7.75.0",
+    "react-icons": "^5.6.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.14.2",
+    "react-toastify": "^11.1.0",
+    "recharts": "^3.8.1",
+    "socket.io-client": "^4.8.3",
+    "tailwindcss": "^4.2.4",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
