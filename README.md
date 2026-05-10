@@ -115,7 +115,7 @@ NexTrain's Stripe webhook requires a publicly reachable HTTPS endpoint. The simp
 
 1. Push the project to your GitHub account.
 2. Sign in to [Vercel](https://vercel.com/) and import the repository.
-3. Set the **Root Directory** to `server` and deploy. You will receive a live URL like `https://your-project.vercel.app`.
+3. Set the **Root Directory** to `server`, add environment variables relevant to the server (change NODE_ENV in those environment variables to production), and deploy. You will receive a live URL like `https://your-project.vercel.app`.
 4. Open the [Stripe Dashboard → Developers → Webhooks](https://dashboard.stripe.com/test/webhooks) and click **Add destination**.
 5. Select to the following three events:
    * `checkout.session.completed`
